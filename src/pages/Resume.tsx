@@ -20,21 +20,34 @@ const Resume = () => {
           </p>
 
           <div className="flex gap-4 mb-12">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90"
+            <a
+              href="/shashikant-kataria-resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download PDF
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary/10"
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download PDF
+              </Button>
+            </a>
+            <a
+              href="/shashikant-kataria-resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <ExternalLink className="mr-2 h-5 w-5" />
-              View Full Resume
-            </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10"
+              >
+                <ExternalLink className="mr-2 h-5 w-5" />
+                View Full Resume
+              </Button>
+            </a>
           </div>
 
           {/* Resume Preview */}

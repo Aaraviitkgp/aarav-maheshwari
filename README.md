@@ -2,14 +2,6 @@
 
 A modern, interactive portfolio website showcasing my work as a Blockchain Developer, Full Stack Engineer, and Mobile Developer from IIT Kharagpur.
 
-## 🚀 Features
-
-- **Full-page Scroll Navigation** - Smooth scrolling between sections with mouse wheel or keyboard
-- **Responsive Design** - Optimized for all devices and screen sizes
-- **Modern UI/UX** - Built with shadcn-ui components and Tailwind CSS
-- **Interactive Animations** - Smooth transitions powered by Framer Motion
-- **Performance Optimized** - Fast loading with Vite and React
-
 ## 🛠️ Technologies Used
 
 - **Frontend Framework**: React 18 with TypeScript
@@ -27,10 +19,10 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and npm instal
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/shashikant-portfolio.git
+git clone https://github.com/shashix07/shashikant-kataria.git
 
 # Navigate to project directory
-cd shashikant-portfolio
+cd shashikant-kataria
 
 # Install dependencies
 npm install
@@ -123,4 +115,4 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-Built with ❤️ using React, TypeScript, and Vite
+Built with ❤️ By Shashikant Kataria
