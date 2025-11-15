@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 17% 7%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 15% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 15% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 189 97% 55%;
+    --primary-foreground: 220 17% 7%;
+
+    --secondary: 262 83% 58%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 189 97% 55%;
+    --accent-foreground: 220 17% 7%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 189 97% 55%;
+
+    --radius: 0.75rem;
+
+    --neon-cyan: 189 97% 55%;
+    --neon-purple: 262 83% 58%;
+    --neon-blue: 217 91% 60%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(189 97% 55% / 0.2), hsl(262 83% 58% / 0.2));
+    --gradient-glow: linear-gradient(135deg, hsl(189 97% 55%), hsl(262 83% 58%));
+    
+    --shadow-neon: 0 0 30px hsl(189 97% 55% / 0.3);
+    --shadow-glow: 0 0 40px hsl(189 97% 55% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  
+  .page-scroll-container {
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+  }
+}
+
+@layer utilities {
+  .glow-text {
+    text-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.5);
+  }
+  
+  .glow-border {
+    box-shadow: 0 0 20px hsl(var(--neon-cyan) / 0.3);
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-purple)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  }
+  50% {
+    box-shadow: 0 0 30px hsl(var(--primary) / 0.8);
+  }
+}

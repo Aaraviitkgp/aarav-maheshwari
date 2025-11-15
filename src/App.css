@@ -1,0 +1,14 @@
+/* Full-page scroll container styles */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Prevent default scroll behavior */
+body {
+  overscroll-behavior: none;
+  touch-action: none;
+}
