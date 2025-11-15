@@ -1,16 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://shashikant-kataria.vercel.app/</loc>
-  <lastmod>2025-11-15T15:21:19+00:00</lastmod>
-</url>
-
-
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Shashikant Kataria Portfolio</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/about</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>About Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/experience</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Experience of Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/projects</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Projects by Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/skills</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Skills of Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/pors</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>PORS by Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/achievements</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Achievements of Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/resume</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Resume of Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://shashikant-kataria.vercel.app/contact</loc>
+    <lastmod>2025-11-15</lastmod>
+    <image:image>
+      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
+      <image:caption>Contact Shashikant Kataria</image:caption>
+    </image:image>
+  </url>
 </urlset>
