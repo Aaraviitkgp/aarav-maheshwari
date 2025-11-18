@@ -19,31 +19,27 @@ const Resume = () => {
             Download or view my complete resume
           </p>
 
-          <div className="flex gap-4 mb-12">
+          <div className="flex gap-4 mb-12 flex-wrap">
             <a
               href="/shashikant-kataria-resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
+              className="min-w-0 flex-1"
             >
-              <Button
-                size="lg"
-                className="bg-primary hover:bg-primary/90"
-              >
+              <Button size="lg" className="w-full bg-primary hover:bg-primary/90">
                 <Download className="mr-2 h-5 w-5" />
                 Download PDF
               </Button>
             </a>
+
             <a
               href="/shashikant-kataria-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              className="min-w-0 flex-1"
             >
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary/10"
-              >
+              <Button size="lg" variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
                 <ExternalLink className="mr-2 h-5 w-5" />
                 View Full Resume
               </Button>
