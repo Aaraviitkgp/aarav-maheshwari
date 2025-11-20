@@ -10,7 +10,7 @@ const projects = [
     description:
       "Vectorized Python simulator modeling European call/put options using Monte Carlo simulations and Black-Scholes formula. Handles 100,000+ simulations with GBM-based terminal price distributions.",
     tech: ["Python", "NumPy", "GBM", "MCS", "Black-Scholes"],
-    github: "https://github.com/aarav-maheshwari/option-pricing",
+    github: "https://github.com/aaraviitkgp/option-pricing",
     live: null,
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     description:
       "Python-based stock trading simulator with secure login, real-time price tracking, and portfolio analytics using NumPy and JSON/CSV data persistence.",
     tech: ["Python", "NumPy", "JSON", "CSV"],
-    github: "https://github.com/aarav-maheshwari/nse-trading-simulator",
+    github: "https://github.com/aaraviitkgp/nse-trading-simulator",
     live: null,
   },
   {

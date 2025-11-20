@@ -67,7 +67,7 @@ const Resume = () => {
                   </span>
                   <span className="flex items-center gap-2">
                     <ExternalLink className="h-4 w-4 text-primary" />
-                    <a href="/" className="underline">portfolio / github</a>
+                    <a href="https://github.com/aaraviitkgp" className="underline">github</a>
                   </span>
                 </div>
               </div>

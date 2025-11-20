@@ -27,11 +27,6 @@ const Contact = () => {
       const apiKey = import.meta.env.VITE_API_KEY;
       const recipientEmail = import.meta.env.VITE_RECIPIENT_EMAIL;
 
-      // Validate API key
-      if (!apiKey || apiKey === 'your_super_secret_api_key_here') {
-        throw new Error('Email service not configured. Please contact the site administrator.');
-      }
-
       // Create fixed HTML email template
       const htmlContent = `
 <!DOCTYPE html>
@@ -288,7 +283,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://www.linkedin.com/in/aarav-maheshwari/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/aarav-maheshwari-184176316/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </Button>
@@ -298,7 +293,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://www.instagram.com/aarav.maheshwari" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/aaravmaheshwari83/" target="_blank" rel="noopener noreferrer">
                       <Instagram className="h-5 w-5" />
                     </a>
                   </Button>
