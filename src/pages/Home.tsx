@@ -26,7 +26,7 @@ const Home = () => {
               Aarav Maheshwari
             </h1>
             <div className="text-2xl md:text-3xl gradient-text font-semibold mb-8">
-              AI/ML Engineer • Data Analyst • Algorithmic Trading
+              AI/ML Engineer • Data Analyst
             </div>
             <p className="text-xl text-muted-foreground mb-12">
               IIT Kharagpur, India
