@@ -19,10 +19,10 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and npm instal
 
 ```bash
 # Clone the repository
-git clone https://github.com/Aaraviitkgp/aarav-maheshwari.git
+git clone https://github.com/shashix07/shashikant-kataria.git
 
 # Navigate to project directory
-cd aarav-maheshwari
+cd shashikant-kataria
 
 # Install dependencies
 npm install
