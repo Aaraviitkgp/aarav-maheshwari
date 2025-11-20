@@ -4,75 +4,102 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
   <url>
-    <loc>https://shashikant-kataria.vercel.app/</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Shashikant Kataria Portfolio</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Aarav Maheshwari - AI/ML Engineer Portfolio</image:caption>
+      <image:title>Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/about</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/about</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>About Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>About Aarav Maheshwari - AI/ML Engineer & Data Analyst</image:caption>
+      <image:title>About Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/experience</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/experience</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Experience of Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Professional Experience - Aarav Maheshwari</image:caption>
+      <image:title>Experience of Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/projects</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/projects</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Projects by Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>AI/ML Projects by Aarav Maheshwari</image:caption>
+      <image:title>Projects by Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/skills</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/skills</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Skills of Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Technical Skills - Aarav Maheshwari</image:caption>
+      <image:title>Skills of Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/pors</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/pors</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>PORS by Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Positions of Responsibility - Aarav Maheshwari</image:caption>
+      <image:title>PORs by Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/achievements</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/achievements</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Achievements of Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Achievements & Awards - Aarav Maheshwari</image:caption>
+      <image:title>Achievements of Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/resume</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/resume</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Resume of Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Resume - Aarav Maheshwari</image:caption>
+      <image:title>Resume of Aarav Maheshwari</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://shashikant-kataria.vercel.app/contact</loc>
-    <lastmod>2025-11-15</lastmod>
+    <loc>https://aarav-maheshwari.vercel.app/contact</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
     <image:image>
-      <image:loc>https://shashikant-kataria.vercel.app/Shashikant-Kataria.png</image:loc>
-      <image:caption>Contact Shashikant Kataria</image:caption>
+      <image:loc>https://aarav-maheshwari.vercel.app/Aarav-Maheshwari.png</image:loc>
+      <image:caption>Contact Aarav Maheshwari</image:caption>
+      <image:title>Contact Aarav Maheshwari</image:title>
     </image:image>
   </url>
 </urlset>

@@ -25,67 +25,161 @@ const Contact = () => {
     try {
       const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
       const apiKey = import.meta.env.VITE_API_KEY;
-      const recipientEmail = import.meta.env.VITE_EMAIL || 'maheshwariaarav12@gmail.com';
+      const recipientEmail = import.meta.env.VITE_RECIPIENT_EMAIL;
 
       // Validate API key
       if (!apiKey || apiKey === 'your_super_secret_api_key_here') {
         throw new Error('Email service not configured. Please contact the site administrator.');
       }
 
-      // Create beautiful HTML email content
+      // Create fixed HTML email template
       const htmlContent = `
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <style>
-            body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
-            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-            .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0; }
-            .header h1 { margin: 0; font-size: 24px; }
-            .content { background: #f8f9fa; padding: 30px; border-left: 4px solid #667eea; border-right: 4px solid #667eea; }
-            .field { margin-bottom: 20px; }
-            .field-label { font-weight: bold; color: #667eea; text-transform: uppercase; font-size: 12px; margin-bottom: 5px; }
-            .field-value { background: white; padding: 12px; border-radius: 5px; border-left: 3px solid #667eea; }
-            .message-box { background: white; padding: 20px; border-radius: 5px; border-left: 3px solid #764ba2; min-height: 100px; white-space: pre-wrap; }
-            .footer { background: #2d3748; color: white; padding: 20px; text-align: center; border-radius: 0 0 10px 10px; font-size: 14px; }
-            .timestamp { color: #a0aec0; font-size: 12px; margin-top: 10px; }
-          </style>
-        </head>
-        <body>
-          <div class="container">
-            <div class="header">
-              <h1>📧 New Contact Message</h1>
-              <p style="margin: 10px 0 0 0; font-size: 14px;">From Aarav Maheshwari's Portfolio</p>
-            </div>
-            <div class="content">
-              <div class="field">
-                <div class="field-label">From</div>
-                <div class="field-value">${formData.name}</div>
-              </div>
-              <div class="field">
-                <div class="field-label">Email</div>
-                <div class="field-value">${formData.email}</div>
-              </div>
-              <div class="field">
-                <div class="field-label">Subject</div>
-                <div class="field-value">${formData.subject}</div>
-              </div>
-              <div class="field">
-                <div class="field-label">Message</div>
-                <div class="message-box">${formData.message}</div>
-              </div>
-            </div>
-            <div class="footer">
-              <p style="margin: 0;">📬 Reply directly to: ${formData.email}</p>
-              <div class="timestamp">Sent at ${new Date().toLocaleString()}</div>
-            </div>
-          </div>
-        </body>
-        </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .email-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 30px;
+      text-align: center;
+    }
+    .email-header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .email-header p {
+      margin: 10px 0 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .email-body {
+      padding: 40px 30px;
+      background: #ffffff;
+    }
+    .field-group {
+      margin-bottom: 25px;
+      border-left: 4px solid #667eea;
+      padding-left: 15px;
+    }
+    .field-label {
+      font-weight: bold;
+      color: #667eea;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      display: block;
+    }
+    .field-value {
+      color: #333;
+      font-size: 15px;
+      word-wrap: break-word;
+    }
+    .message-box {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #764ba2;
+      margin-top: 10px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    .email-footer {
+      background: #2d3748;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .email-footer p {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+    }
+    .reply-button {
+      display: inline-block;
+      background: #667eea;
+      color: white;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    .timestamp {
+      color: #a0aec0;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+    @media only screen and (max-width: 600px) {
+      .email-body {
+        padding: 20px;
+      }
+      .email-header {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="email-header">
+      <h1>📧 New Contact Message</h1>
+      <p>Message received from Portfolio Website</p>
+    </div>
+    
+    <div class="email-body">
+      <div class="field-group">
+        <span class="field-label">👤 From</span>
+        <div class="field-value">${formData.name}</div>
+      </div>
+      
+      <div class="field-group">
+        <span class="field-label">📧 Email Address</span>
+        <div class="field-value">${formData.email}</div>
+      </div>
+      
+      <div class="field-group">
+        <span class="field-label">📋 Subject</span>
+        <div class="field-value">${formData.subject}</div>
+      </div>
+      
+      <div class="field-group">
+        <span class="field-label">💬 Message</span>
+        <div class="message-box">${formData.message}</div>
+      </div>
+    </div>
+    
+    <div class="email-footer">
+      <p>📬 <strong>Reply to this message:</strong> ${formData.email}</p>
+      <a href="mailto:${formData.email}" class="reply-button">Reply Directly</a>
+      <div class="timestamp">⏰ Received at ${new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'long' })}</div>
+    </div>
+  </div>
+</body>
+</html>
       `;
 
-      // Use generic contact-email endpoint
-      const response = await fetch(`${apiUrl}/api/contact-form`, {
+      // Send email using /api/send-email endpoint
+      const response = await fetch(`${apiUrl}/api/send-email`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -93,10 +187,10 @@ const Contact = () => {
         },
         body: JSON.stringify({
           to: recipientEmail,
-          subject: `${formData.subject} - From ${formData.name}`,
+          subject: `Portfolio Contact: ${formData.subject} - From ${formData.name}`,
           content: htmlContent,
           replyTo: formData.email,
-          fromName: formData.name,
+          fromName: 'Aarav Maheshwari Portfolio',
           isHtml: true
         })
       });
