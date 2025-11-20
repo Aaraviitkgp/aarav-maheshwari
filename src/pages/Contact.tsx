@@ -88,22 +88,22 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
                 <div className="space-y-4">
                   <a
-                    href="mailto:shashi007.iitkgp@gmail.com"
+                    href="mailto:maheshwariaarav12@gmail.com"
                     className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group"
                   >
                     <div className="bg-primary/10 p-3 rounded-lg group-hover:bg-primary/20 transition-colors">
                       <Mail className="h-5 w-5 text-primary" />
                     </div>
-                    <span>shashi007.iitkgp@gmail.com</span>
+                    <span>maheshwariaarav12@gmail.com</span>
                   </a>
                   <a
-                    href="tel:+916378454339"
+                    href="tel:+916377386854"
                     className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group"
                   >
                     <div className="bg-primary/10 p-3 rounded-lg group-hover:bg-primary/20 transition-colors">
                       <Phone className="h-5 w-5 text-primary" />
                     </div>
-                    <span>+91 6378454339</span>
+                    <span>+91 6377386854</span>
                   </a>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://github.com/shashix07" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/aarav-maheshwari" target="_blank" rel="noopener noreferrer">
                       <Github className="h-5 w-5" />
                     </a>
                   </Button>
@@ -127,7 +127,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://www.linkedin.com/in/shashikantkataria/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/aarav-maheshwari/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </Button>
@@ -137,7 +137,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://www.instagram.com/shashikataria_/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/aarav.maheshwari" target="_blank" rel="noopener noreferrer">
                       <Instagram className="h-5 w-5" />
                     </a>
                   </Button>

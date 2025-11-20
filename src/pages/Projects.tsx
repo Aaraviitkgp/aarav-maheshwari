@@ -5,56 +5,56 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Niblie Browser Extension",
-    category: "Browser Extension",
+    title: "Monte Carlo & Black-Scholes Option Pricing Simulator",
+    category: "Financial Engineering",
     description:
-      "Multi-purpose browser extension featuring web scraping, ad-blocking, sound booster, and dark reader functionality. Published on Chrome Web Store.",
-    tech: ["JavaScript", "Chrome API", "Web Scraping"],
-    github: "https://github.com/shashix07/Niblie",
-    live: "https://shashix07.github.io/Niblie/",
-  },
-  {
-    title: "Chemsparsh Platform",
-    category: "Full Stack",
-    description:
-      "Online test series platform with comprehensive backend architecture, multi-role admin system, and high traffic optimization using FastAPI.",
-    tech: ["FastAPI", "Python", "PostgreSQL", "React"],
-    github: null,
-    live: "https://chemsparsh.com",
-  },
-  {
-    title: "OpenSoft GC 2025",
-    category: "Full Stack",
-    description:
-      "Complete authentication system with REST APIs, integrated AI chatbot, and modern React frontend with TypeScript.",
-    tech: ["FastAPI", "React", "TypeScript", "AI Integration"],
-    github: "https://github.com/shashiX07/Opensoft-2025",
+      "Vectorized Python simulator modeling European call/put options using Monte Carlo simulations and Black-Scholes formula. Handles 100,000+ simulations with GBM-based terminal price distributions.",
+    tech: ["Python", "NumPy", "GBM", "MCS", "Black-Scholes"],
+    github: "https://github.com/aarav-maheshwari/option-pricing",
     live: null,
   },
   {
-    title: "Ahoum Mobile App",
-    category: "Mobile",
+    title: "NSE Stock Trading Simulator",
+    category: "Finance",
     description:
-      "Emotional wellbeing application with real-time chat functionality, devotional design aesthetic, and FastAPI backend.",
-    tech: ["React Native", "FastAPI", "Real-time Chat"],
+      "Python-based stock trading simulator with secure login, real-time price tracking, and portfolio analytics using NumPy and JSON/CSV data persistence.",
+    tech: ["Python", "NumPy", "JSON", "CSV"],
+    github: "https://github.com/aarav-maheshwari/nse-trading-simulator",
+    live: null,
+  },
+  {
+    title: "AI/ML Chatbot & Churn Prediction",
+    category: "Machine Learning",
+    description:
+      "Full-stack ML applications: Transformer-based chatbot and customer churn model with ~87% accuracy using Random Forest & XGBoost. Deployed on Modal/Flask handling 200+ RPS with <200ms response time.",
+    tech: ["PyTorch", "XGBoost", "Flask", "Modal", "SHAP"],
     github: null,
     live: null,
   },
   {
-    title: "Webdada Event Platform",
-    category: "Frontend",
+    title: "Hybrid Transformer–LSTM Crypto Forecasting",
+    category: "Research",
     description:
-      "Event management platform with dashboards for organizers and admins. Built with React and Tailwind CSS.",
-    tech: ["React", "Tailwind CSS", "Dashboard UI"],
+      "Research paper on hybrid Transformer-LSTM model with reinforcement-based adaptive learning for BTC/USDT forecasting (2020-2023). Published on ResearchGate.",
+    tech: ["PyTorch", "LSTM", "Transformer", "RL"],
+    github: null,
+    live: "https://www.researchgate.net/profile/Aarav-Maheshwari",
+  },
+  {
+    title: "End-to-End Database Architecture & Visualization",
+    category: "Data Engineering",
+    description:
+      "Designed scalable relational database with ETL pipelines, ensuring data integrity and normalization. Integrated with Tableau dashboards for real-time KPI monitoring.",
+    tech: ["SQL", "ETL", "Tableau", "Data Modeling"],
     github: null,
     live: null,
   },
   {
-    title: "Blockchain dApps",
-    category: "Blockchain",
+    title: "Algorithmic Trading Models",
+    category: "Quantitative Finance",
     description:
-      "Various decentralized applications built with Solidity smart contracts as part of KodeinKGP blockchain team.",
-    tech: ["Solidity", "Web3.js", "Ethereum"],
+      "Developed 5+ algorithmic trading models in Python for Bonanza Portfolio Ltd., boosting backtested returns by ~12%. Analyzed millions of equity and commodity data points.",
+    tech: ["Python", "Pandas", "NumPy", "Trading Algorithms"],
     github: null,
     live: null,
   },

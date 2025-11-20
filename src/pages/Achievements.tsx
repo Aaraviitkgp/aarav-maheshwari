@@ -4,22 +4,28 @@ import { Trophy, Award, Medal } from "lucide-react";
 
 const achievements = [
   {
-    title: "JEE Mains - All India Rank 20019",
-    description: "Secured AIR 20019 in one of India's most competitive entrance examinations",
+    title: "Codeforces Rating 1200+ & Top 20% Kaggle",
+    description: "Achieved Codeforces rating of 1200+ in Div 2/3 contests and ranked in top 20% across 10+ Kaggle competitions",
     icon: Trophy,
     color: "text-neon-cyan",
   },
   {
-    title: "JEE Advanced - Category Rank 2109",
-    description: "Achieved Category Rank 2109 in JEE Advanced, gaining admission to IIT Kharagpur",
+    title: "TensorFlow Core Contributor",
+    description: "Contributed 3+ merged PRs to TensorFlow, fixing critical GPU precision bugs and improving test coverage by ~15%",
     icon: Award,
     color: "text-neon-purple",
   },
   {
-    title: "Bronze Medal - University Hockey",
-    description: "Won Bronze medal in 'Shaurya' - University Hockey Competition",
+    title: "Published Research Paper",
+    description: "Authored and published research on hybrid Transformer-LSTM model for cryptocurrency forecasting on ResearchGate",
     icon: Medal,
     color: "text-neon-blue",
+  },
+  {
+    title: "Open-Source ML Contributor",
+    description: "Active contributor to HuggingFace, LangChain, and other prominent open-source ML repositories",
+    icon: Trophy,
+    color: "text-neon-cyan",
   },
 ];
 

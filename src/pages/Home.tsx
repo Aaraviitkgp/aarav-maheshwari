@@ -23,10 +23,10 @@ const Home = () => {
               Hi, I'm
             </h2>
             <h1 className="text-5xl md:text-7xl font-bold mb-4 glow-text">
-              Shashikant Kataria
+              Aarav Maheshwari
             </h1>
             <div className="text-2xl md:text-3xl gradient-text font-semibold mb-8">
-              Blockchain Developer • Full Stack Engineer • Mobile Developer
+              AI/ML Engineer • Data Analyst • Algorithmic Trading
             </div>
             <p className="text-xl text-muted-foreground mb-12">
               IIT Kharagpur, India
@@ -72,7 +72,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
           >
-            {["Solidity", "React", "FastAPI", "Flutter", "TypeScript", "Web3"].map(
+            {["Python", "PyTorch", "TensorFlow", "Docker", "AWS", "SQL"].map(
               (tech, index) => (
                 <motion.div
                   key={tech}

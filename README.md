@@ -1,6 +1,6 @@
-# Shashikant Kataria - Portfolio Website
+# Aarav Maheshwari - Portfolio Website
 
-A modern, interactive portfolio website showcasing my work as a Blockchain Developer, Full Stack Engineer, and Mobile Developer from IIT Kharagpur.
+A modern, interactive portfolio website showcasing my work as an AI/ML Engineer, Data Analyst, and Algorithmic Trading Developer at IIT Kharagpur. Featuring projects in machine learning, quantitative finance, RLHF systems, and open-source contributions.
 
 ## 🛠️ Technologies Used
 
@@ -19,10 +19,10 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and npm instal
 
 ```bash
 # Clone the repository
-git clone https://github.com/shashix07/shashikant-kataria.git
+git clone https://github.com/Aaraviitkgp/aarav-maheshwari.git
 
 # Navigate to project directory
-cd shashikant-kataria
+cd aarav-maheshwari
 
 # Install dependencies
 npm install
@@ -105,9 +105,9 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-**Shashikant Kataria**
+**Aarav Maheshwari**
 - IIT Kharagpur
-- Blockchain Developer | Full Stack Engineer | Mobile Developer
+- AI/ML Engineer | Data Analyst | Algorithmic Trading Developer | TensorFlow Contributor
 
 ## 🤝 Contributing
 
@@ -115,4 +115,4 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-Built with ❤️ By Shashikant Kataria
+Built with ❤️ By Aarav Maheshwari

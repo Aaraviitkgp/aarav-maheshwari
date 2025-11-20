@@ -27,7 +27,7 @@ const Navigation = () => {
 					<div className="flex items-center justify-between">
 						<NavLink to="/" activeClassName="text-primary">
 							<img
-								src="/Shashikant-Kataria.png"
+								src="/Aarav-Maheshwari.png"
 								alt="Logo"
 								className="w-10 h-10 rounded-full object-cover border-2 border-primary shadow-md cursor-pointer"
 								onClick={(e) => {
@@ -102,7 +102,7 @@ const Navigation = () => {
 						onClick={() => setShowPreview(false)}
 					>
 						<motion.img
-							src="/Shashikant-Kataria.png"
+						src="/Aarav-Maheshwari.png"
 							alt="Large Preview"
 							className="max-w-full max-h-[80vh] rounded-lg border-4 border-primary shadow-2xl"
 							initial={{ scale: 0.8 }}

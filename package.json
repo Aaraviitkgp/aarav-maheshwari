@@ -1,10 +1,10 @@
 {
-  "name": "shashikant-portfolio",
+  "name": "aarav-maheshwari-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Portfolio website of Shashikant Kataria - Blockchain Developer, Full Stack Engineer from IIT Kharagpur",
-  "author": "Shashikant Kataria",
+  "description": "Portfolio website of Aarav Maheshwari - AI/ML Engineer & Data Analyst at IIT Kharagpur",
+  "author": "Aarav Maheshwari",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

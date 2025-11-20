@@ -7,22 +7,22 @@ const About = () => {
 
   const education = [
     {
-      degree: "B.Tech in Agricultural and Food Engineering",
+      degree: "Bachelor of Science in Geology",
       institution: "Indian Institute of Technology Kharagpur",
       period: "2024 - 2028",
-      cgpa: "7.96",
+      cgpa: "8.9 CGPA",
     },
     {
-      degree: "Class XII",
-      institution: "Higher Secondary Education",
-      period: "2023",
-      percentage: "96.20%",
+      degree: "CBSE Class XII",
+      institution: "Jayshree Periwal High School",
+      period: "2024",
+      percentage: "92%",
     },
     {
-      degree: "Class X",
-      institution: "Secondary Education",
-      period: "2021",
-      percentage: "93%",
+      degree: "CBSE Class X",
+      institution: "Jayshree Periwal High School",
+      period: "2022",
+      percentage: "92%",
     },
   ];
 
@@ -41,25 +41,20 @@ const About = () => {
 
           <div className="bg-card border border-border rounded-lg p-8 mb-12 glow-border">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I am a <span className="text-primary font-semibold">Blockchain Developer</span> and{" "}
-              <span className="text-primary font-semibold">Full Stack Engineer</span>, currently
-              pursuing B.Tech in Agricultural and Food Engineering at the{" "}
+              I am a <span className="text-primary font-semibold">highly motivated AI/ML and data analytics enthusiast</span> pursuing my Bachelor of Science in Geology at{" "}
               <span className="text-foreground font-semibold">
                 Indian Institute of Technology Kharagpur
               </span>
               .
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I build scalable backend systems using <span className="text-foreground">FastAPI</span> and{" "}
-              <span className="text-foreground">Node.js</span>, modern web frontends with{" "}
-              <span className="text-foreground">React + Tailwind</span>, and cross-platform mobile
-              apps using <span className="text-foreground">Flutter</span> and{" "}
-              <span className="text-foreground">React Native</span>.
+              I have hands-on experience developing <span className="text-foreground">algorithmic trading models</span>,{" "}
+              <span className="text-foreground">RLHF systems</span>,{" "}
+              <span className="text-foreground">full-stack ML/AI applications</span>, and building
+              end-to-end <span className="text-foreground">data pipelines</span>. I'm skilled in designing scalable solutions, optimizing model performance, and delivering actionable business insights.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I also contribute to decentralized apps and smart contract development as part of the{" "}
-              <span className="text-secondary font-semibold">Blockchain Team at KodeinKGP</span>,
-              IIT Kharagpur's Web3 & AI society.
+              My technical expertise spans <span className="text-foreground">PyTorch, TensorFlow, Docker, AWS</span>, and modern data tools like <span className="text-foreground">Apache Kafka and Airflow</span>. I'm passionate about competitive programming (Codeforces 1200+) and open-source contributions to TensorFlow, HuggingFace, and LangChain.
             </p>
           </div>
 

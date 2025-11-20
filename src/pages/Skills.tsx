@@ -6,26 +6,31 @@ const skills = {
   "Programming Languages": {
     icon: FileCode,
     items: [
-      "JavaScript",
-      "TypeScript",
       "Python",
-      "Golang",
       "C++",
-      "C",
-      "Solidity",
+      "SQL",
     ],
   },
-  "Frameworks & Libraries": {
+  "ML/AI Frameworks": {
     icon: Code2,
     items: [
-      "React",
-      "Vite",
-      "Django",
-      "Flask",
-      "FastAPI",
-      "Flutter",
-      "Tailwind CSS",
-      "React Native",
+      "PyTorch",
+      "TensorFlow",
+      "HuggingFace",
+      "Scikit-learn",
+      "LangChain",
+      "LangGraph",
+    ],
+  },
+  "Data Tools": {
+    icon: Database,
+    items: [
+      "Pandas",
+      "NumPy",
+      "Seaborn",
+      "Matplotlib",
+      "Apache Kafka",
+      "Apache Airflow",
     ],
   },
   "Tools & Platforms": {
@@ -33,15 +38,15 @@ const skills = {
     items: [
       "Git",
       "Docker",
-      "Azure",
-      "Firebase",
-      "Postman",
-      "Supabase",
+      "AWS",
+      "Pinecone",
+      "GraphSQL",
+      "Tableau",
+      "Flask",
+      "Modal",
+      "Jupyter",
+      "Google Colab",
     ],
-  },
-  Databases: {
-    icon: Database,
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firestore"],
   },
 };
 
