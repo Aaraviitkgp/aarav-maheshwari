@@ -85,7 +85,7 @@ const Contact = () => {
       `;
 
       // Use generic contact-email endpoint
-      const response = await fetch(`${apiUrl}/api/contact-email`, {
+      const response = await fetch(`${apiUrl}/api/contact-form`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -184,7 +184,7 @@ const Contact = () => {
                     className="border-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://github.com/aarav-maheshwari" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/aaraviitkgp" target="_blank" rel="noopener noreferrer">
                       <Github className="h-5 w-5" />
                     </a>
                   </Button>
