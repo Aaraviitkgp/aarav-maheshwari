@@ -11,7 +11,7 @@ const projects = [
       "Multi-purpose browser extension featuring web scraping, ad-blocking, sound booster, and dark reader functionality. Published on Chrome Web Store.",
     tech: ["JavaScript", "Chrome API", "Web Scraping"],
     github: "https://github.com/shashix07/Niblie",
-    live: null,
+    live: "https://shashix07.github.io/Niblie/",
   },
   {
     title: "Chemsparsh Platform",
@@ -28,7 +28,7 @@ const projects = [
     description:
       "Complete authentication system with REST APIs, integrated AI chatbot, and modern React frontend with TypeScript.",
     tech: ["FastAPI", "React", "TypeScript", "AI Integration"],
-    github: null,
+    github: "https://github.com/shashiX07/Opensoft-2025",
     live: null,
   },
   {
