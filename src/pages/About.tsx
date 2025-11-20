@@ -9,7 +9,7 @@ const About = () => {
     {
       degree: "B.Tech in Agricultural and Food Engineering",
       institution: "Indian Institute of Technology Kharagpur",
-      period: "2023 - 2028",
+      period: "2024 - 2028",
       cgpa: "7.96",
     },
     {
